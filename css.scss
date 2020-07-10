@@ -1,0 +1,289 @@
+body{
+    width: 860px;
+    height: 760px;
+    background-color: #000;
+    border: 2px dashed #B68614;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+div.field{
+    position: relative;
+}
+a.reload{
+    position: absolute;
+    top: 650px;
+    left: 550px;
+    text-decoration: none;
+    
+
+}
+#nosound{
+    position: absolute;
+    left: 10px;
+    top: 720px;
+    width: 20px; height: 20px;
+    background-color: #000;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+}
+#redline{
+    display: none;
+    width: 3px; height: 30px;
+    background-color: #FDFBFBFF;
+    position: absolute;
+    top: 718px; left: 21px;
+}
+
+#bottle{
+    position: absolute;
+    left: 330px;
+}
+#bloorWhiskey{
+    position: absolute;
+    left: 330px;
+    top: 305px;
+}
+p#congratulations{
+    display: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #454545;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    z-index: 3;
+}
+#kill1{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    z-index: 2;
+}
+#kill2{
+    display: none;
+    position: absolute;
+    left: 460px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 2;
+}
+#smoke{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    display: none;
+}
+div.men{
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.good{
+    margin-left: 100px;
+}
+a.reload{
+    color: #fff;
+}
+div.instr{
+    text-transform: uppercase;
+    position: absolute;
+    left: 260px;
+    top: 710px;
+    color: wheat;
+}
+#button{
+    color: wheat;
+    position: absolute;
+    top: 720px;
+    left: 370px;
+    border: 2px solid #C0C620;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color: #E21111;
+    }
+#button:hover{
+    cursor: pointer;
+    height: 22px;
+    width: 22px;
+    top: 719px;
+    left: 369px;
+}
+
+
+
+// P A R T S  BADMAN////////////////////////////////
+.white{
+    border: none;
+    background-color: rgba(255,255,255,0.8);
+
+}
+#bHead{
+    width: 3px; height: 3px;
+    position: absolute;
+    left: 230px;
+    top: 140px;
+    border-radius: 50%;
+    border: 1px solid red;
+     z-index: 9;
+}
+#bBody{
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 185px;
+    top: 310px;
+    border: 1px solid red;
+    z-index: 9;
+}
+#bLeftLeg{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+    top: 400px;
+    border: 1px solid red;
+    z-index: 9;
+}
+#bRightLeg{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 250px;
+    top: 390px;
+    border: 1px solid red;
+    z-index: 9;
+}
+#bRightHand{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 105px;
+    top: 340px;
+    border: 1px solid red;
+    z-index: 9;
+}
+#bLeftHand{
+    width: 40px; height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 260px;
+    top: 280px;
+    border: 1px solid red;
+    z-index: 9;
+}
+//////////////////////////////////////////
+#gHead{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 610px;
+    top: 130px;
+    border: 1px solid red;
+    z-index: 4;
+}
+#gBody{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 630px;
+    top: 300px;
+    border: 1px solid red;
+}
+#gLeftLeg{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 580px;
+    top: 440px;
+    border: 1px solid red;
+}
+#gRightLeg{
+   width: 30px; height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 690px;
+    top: 450px; 
+    border: 1px solid red; 
+}
+#gRightHand{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 535px;
+    top: 340px; 
+    border: 1px solid red;
+}
+#gLeftHand{
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 700px;
+    top: 280px;
+    border: 1px solid red;
+}
+
+////////////////////////////////////////////
+img.a100{
+    z-index: 6;
+    position: absolute;
+    top: 20px;
+    left: 140px;
+    opacity: 40%;
+}
+img.a50{
+    z-index: 6;
+     position: absolute;
+     top: 335px;
+     left: 70px;
+     opacity: 40%;
+}
+img.a10{
+    z-index: 6;
+     position: absolute;
+     top: 390px;
+     left: 290px;
+     opacity: 40%;
+}
+p.sc{
+    font-size: 30px;
+}
+#west{
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    top: 550px;
+    left: 355px;
+    font-weight: bold;
+    opacity: 0.2;
+}
+#a{
+    z-index: 8;
+    position: absolute;
+    color: #fff;
+    left: 170px;
+    opacity: 40%;
+}
+#b{ z-index: 8;
+    position: absolute;
+    color: #fff;
+    left: 50px;
+    top: 350px;
+    opacity: 40%;
+}
+#c{
+    z-index: 8;
+    position: absolute;
+    color: #fff;
+    left: 320px;
+    top: 500px;
+    opacity: 40%;
+}
